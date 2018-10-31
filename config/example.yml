@@ -1,0 +1,47 @@
+colour-patterns:
+  - pattern: "[statistics]"
+    whole-line: false
+    foreground: green
+    background: null
+    regex: false
+
+  - pattern: "[crit]"
+    whole-line: true
+    foreground: bright-red
+    background: null
+    regex: false
+
+  - pattern: "[err]"
+    whole-line: true
+    foreground: red
+    background: null
+    regex: false
+
+  - pattern: "[warn]"
+    whole-line: true
+    foreground: bright-yellow
+    background: null
+    regex: false
+
+  - pattern: "[notice]"
+    whole-line: true
+    foreground: null
+    background: null
+    regex: false
+
+  - pattern: "[info]"
+    whole-line: true
+    foreground: cyan
+    background: null
+    regex: false
+
+  - pattern: "[debug]"
+    whole-line: true
+    foreground: bright-black
+    background: null
+    regex: false
+
+default:
+  foreground: white
+  background: null
+show-unmatched: true
